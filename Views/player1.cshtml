@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RockPaperScissors!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Player 1, Choose your Weapon!</h1>
+  <form action="/player2" method="post">
+    <div class="radio">
+    <label>
+      <input type="radio" name="player" value="r" checked>
+      Rock
+    </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="player" value="p">
+        Paper
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="player" value="s">
+        Scissors
+      </label>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  </body>
+</html>
